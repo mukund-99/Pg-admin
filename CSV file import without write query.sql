@@ -1,0 +1,19 @@
+-- IMPORT CSV FILE DIRECTLY (its means without query)
+
+-- STEP 1: NEED TABLE STRUCTURE
+-- CREATE TABLE
+CREATE TABLE employee3(
+	employee_id	INT PRIMARY KEY,
+	first_name VARCHAR(20),
+	last_name VARCHAR(20),
+	email VARCHAR(25),
+	department VARCHAR(20),
+	salary NUMERIC(10,2),
+	joining_date DATE,
+	age INT
+);
+
+-- STEP 2: GOTO TABLE CLICK RIGHT AND SELECT OPTIN IMPORT/EXPORT DATA SELECT FILE PATH & TYPE
+
+-- STEP 3: CHECK DATA IMPORT
+SELECT * FROM employee3;
